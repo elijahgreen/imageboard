@@ -40,6 +40,7 @@
     "test": "node --experimental-json-modules node_modules/mocha/bin/_mocha --require ./test/setup.js --reporter spec --colors --bail --exit --recursive --reporter-option maxDiffSize=0 \"./{,!(node_modules)/**/}*.test.js\"",
     "create-json-js-files": "node scripts/create-json-js-files",
     "build": "npm-run-all create-json-js-files",
+    "prepare": "npm run create-json-js-files",
     "prepublishOnly": "npm run build && npm run test"
   },
   "repository": {
