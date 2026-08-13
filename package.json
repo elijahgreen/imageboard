@@ -58,5 +58,8 @@
   "bugs": {
     "url": "https://gitlab.com/catamphetamine/imageboard/issues"
   },
-  "homepage": "https://gitlab.com/catamphetamine/imageboard#readme"
+  "homepage": "https://gitlab.com/catamphetamine/imageboard#readme",
+  "overrides": {
+    "serialize-javascript": "^7.1.0"
+  }
 }
