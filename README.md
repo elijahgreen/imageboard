@@ -463,7 +463,7 @@ Parameters object:
 
 * `commentLengthLimitForWithLatestComments?: number` — Same as `commentLengthLimit` but for `thread.latestComments`.
 
-* `sortBy?: string` — Could be used to sort the list of threads by something. For example, `makaba` engine supports `sortBy: "rating-desc"`.
+* `sortBy?: string` — Could be used to sort the list of threads by something. For example, `makaba` engine supports `sortBy: "rating-desc"`. Every engine supports `sortBy: "bump-order"`, which keeps the order the imageboard itself lists the threads in ("pinned" threads first, then the most recently "bumped" ones). By default, threads are sorted by most recently created.
 
 * Any other properties here will override the corresponding properties of the `options` object that was passed to the `Imageboard()` function when creating an imageboard instance.
 

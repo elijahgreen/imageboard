@@ -96,7 +96,7 @@ export interface GetThreadsParameters extends ImageboardOptionsOverridable {
 	withLatestComments?: boolean;
 	withLatestCommentsMaxPages?: number;
 	commentLengthLimitForWithLatestComments?: number;
-	sortBy?: 'rating-desc';
+	sortBy?: 'rating-desc' | 'bump-order';
 }
 
 export interface GetThreadsResult {
